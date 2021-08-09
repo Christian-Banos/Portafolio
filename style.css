@@ -1015,11 +1015,11 @@ Version:	1.1
 	font-size: 12px;
 	-webkit-transform:translateY(-100%);
 	-moz-transform:translateY(-100%);
-	transform:translateY(-100%);
+	transform:translateY(-10%);
 }
 #portfolio .portfolio-nav ul li span::before {
 	position: absolute;
-	left: 50%;
+	left: 50%;  /*cambiamos el porcentaje para que la flechita este debajo del numero. valor inicial 50%*/
 	bottom: -5px;
 	content: "";
 	border-top: 5px solid;
@@ -1031,7 +1031,7 @@ Version:	1.1
 #portfolio .portfolio-nav ul li:hover span{
 	opacity:1;
 	visibility:visible;
-	transform:translateY(0%);
+	transform:translatex(190%); /*cambiamos el porcentaje para que el numerito este en la mitad transform:translateY(0%);*/
 }
 #portfolio .portfolio-nav ul li i {
 	margin-right: 10px;
