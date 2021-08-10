@@ -1194,7 +1194,7 @@ Version:	1.1
 #portfolio .button .btn {
 	margin-top: 60px;
 	padding: 15px 38px;
-	border-radius: 50px;
+	border-radius: 5px;
 	font-weight: 600;
 }
 #portfolio .button .btn:hover,
@@ -1352,9 +1352,9 @@ Version:	1.1
 	CountDown CSS
 =========================*/
 #countdown {
-	background-image: url(http://via.placeholder.com/1500x800);
+	background-image: url(images/setup-gaming-minimalista-madera-1024x576.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: center;
 	position: relative;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -1445,7 +1445,7 @@ Version:	1.1
 }
 #my-timeline .timeline-inner:before{
 	content: "";
-	*/-webkit-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	margin-left: -2px;
@@ -1670,7 +1670,7 @@ Version:	1.1
 	Testimonial CSS
 =========================*/
 #testimonials {
-	background: url('http://via.placeholder.com/1500x800');
+	background: url('images/teclado2.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -1746,7 +1746,7 @@ Version:	1.1
 #testimonials .rating li{
 	display:inline-block;
 }
-#testimonials .owl-nav{}
+/* #testimonials .owl-nav{} */
 #testimonials .owl-nav div {
 	position: absolute;
 	top: 50%;
@@ -2233,7 +2233,7 @@ Version:	1.1
 	position: relative;
 	float: left;
 }
-#blog.single .prev-next ul{}
+/* #blog.single .prev-next ul{} */
 #blog.single .prev-next ul li {
 	left: 0;
 	display: inline-block;
@@ -2400,7 +2400,7 @@ Version:	1.1
 #call-action {
 	position: relative;
 	overflow: hidden;
-	background-image: url('http://via.placeholder.com/1500x800');
+	background-image: url('images/teclado1.jpg');
 	background-size: cover;
 	background-position: center;
 	z-index: 1;
@@ -2604,7 +2604,7 @@ Version:	1.1
 	padding: 200px 0 70px;
 	background: #F8F8F8;
 	border-top: 3px solid;
-	background: url('http://via.placeholder.com/1500x800');
+	background: url('images/branding.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
